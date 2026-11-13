@@ -1,0 +1,9 @@
+# Shaurya Prabhakar
+
+> Personal site of Shaurya Prabhakar.
+
+## Pages
+
+- [Home](/): Personal landing page; currently under construction.
+- [Pay Shaurya](/pay/): Create a UPI payment QR code.
+- [XML sitemap](/sitemap.xml)
