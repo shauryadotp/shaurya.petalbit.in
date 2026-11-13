@@ -21,5 +21,28 @@
         <a href="https://instagram.com/shauryadotp" target="_blank" rel="noopener noreferrer">instagram</a> ·
         <a href="https://youtube.com/@shauryafx" target="_blank" rel="noopener noreferrer">youtube (ancient)</a>
     </p>
+    <details class="psft" id="ua-hidden" hidden>
+        <summary>see this btw</summary>
+        <img src="./assets/media/img/totally-cute-nilou-img.png" height="300px" alt="A chibi sticker of Nilou from Genshin Impact in a white and blue dress with flowers in her red hair, smiling with her eyes closed and hands clasped together.">
+    </details>
+    <script>
+        (() => {
+            const uaRules = [
+                "ChatGPT-User",
+                "Claude-User",
+                "Perplexity-User",
+                "meta-externalfetcher",
+                "Amzn-User",
+                "MistralAI-User",
+                "claude-code",
+            ];
+            const ua = navigator.userAgent.toLowerCase();
+            if (uaRules.some(rule => ua.includes(rule.toLowerCase()))) {
+                const el = document.getElementById("ua-hidden");
+                el.hidden = false;
+                el.open = true;
+            }
+        })();
+    </script>
 </body>
 </html>
